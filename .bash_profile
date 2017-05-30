@@ -1,7 +1,7 @@
 ## source default profile
 DIR=$(dirname "${BASH_SOURCE[0]}")
 source $DIR/settings/.profile
-export USER=$USER-dwkim
+export USER=$USER-upepo
 
 ## path
 export PATH=$DIR/.local/bin:$DIR/local/bin:$DIR/bin:$DIR/../../local/bin:$PATH

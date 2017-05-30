@@ -1,7 +1,7 @@
 #!/bin/bash
 TMUX_VERSION=`tmux -V`
 TMUX_NAME=$1
-TMUX_SOCKET_NAME=dwkim_sock
+TMUX_SOCKET_NAME=cjkim_sock
 
 if [[ "$TMUX_VERSION" > "tmux 1.6" ]]
 then

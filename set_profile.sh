@@ -11,4 +11,4 @@ fi
 
 ## profile
 . ~/.bashrc
-profile dwkim
+profile upepo

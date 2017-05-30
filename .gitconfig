@@ -1,6 +1,6 @@
 [user]
-    name = Dongwon Kim
-    email = dongwon.kim@navercorp.com
+    name = Chanju Kim
+    email = chanju.kim@navercorp.com
 [core]
     editor = vim
 [diff]
@@ -19,6 +19,6 @@
 [push]
     default = current
 [credential "https://github.com"]
-    username = dkim010
+    username = upepo
 [credential]
     helper = cache --timeout=3600
