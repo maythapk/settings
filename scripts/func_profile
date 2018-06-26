@@ -1,4 +1,4 @@
-PROFILE_PATH_HOME=${HOME}/users # �~P신�~]~X �~D이�~T~T�~\ �~@경�~U~X십�~K~\�XXPROFILE_PATH_HOME=${HOME}/users
+PROFILE_PATH_HOME=${HOME}/dev_users 
 
 unset profile
 
