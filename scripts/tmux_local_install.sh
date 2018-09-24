@@ -15,8 +15,12 @@ cd $HOME/tmux_tmp
 
 # download source files for tmux, libevent, and ncurses
 wget -O tmux-${TMUX_VERSION}.tar.gz https://github.com/tmux/tmux/releases/download/${TMUX_VERSION}/tmux-${TMUX_VERSION}.tar.gz
+
+
 #wget https://github.com/downloads/libevent/libevent/libevent-2.0.19-stable.tar.gz
-wget https://github.com/libevent/libevent/releases/download/release-2.1.8-stable/libevent-2.1.8-stable.tar.gz
+LIB_EVENT=libevent-2.1.8-stable
+wget https://github.com/libevent/libevent/releases/download/release-2.1.8-stable/${LIB_EVENT}.tar.gz
+
 #wget ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz
 wget https://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz
 
@@ -25,8 +29,8 @@ wget https://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz
 ############
 # libevent #
 ############
-tar xvzf libevent-2.0.19-stable.tar.gz
-cd libevent-2.0.19-stable
+tar xvzf ${LIB_EVENT}.tar.gz
+cd ${LIB_EVENT}
 ./configure --prefix=$HOME/local --disable-shared
 make
 make install

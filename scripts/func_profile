@@ -1,4 +1,4 @@
-PROFILE_PATH_HOME=${HOME}/dev_users 
+PROFILE_PATH_HOME=${HOME}/users 
 
 unset profile
 

@@ -10,4 +10,4 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 pyenv install 2.7.13
-pyenv install 3.6.1
+pyenv install 3.6.5

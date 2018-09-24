@@ -16,6 +16,7 @@
 * `.git-promt.sh`
 * `iTerm2/`
   * iTerm2 configuration file for mac
+* `git submodule update --init --recursive`
 
 ### Setup scripts
 * `set_profile.sh`
