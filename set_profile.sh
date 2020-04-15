@@ -11,4 +11,4 @@ fi
 
 ## profile
 . ~/.bashrc
-profile upepo
+profile maytha
